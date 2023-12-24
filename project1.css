@@ -1,5 +1,9 @@
 @font-face {
+<<<<<<< HEAD
     font-family: 'vazir2';
+=======
+    font-family: 'vazir1';
+>>>>>>> c35618c41b1365a4e6129d61e2a2a54643e794b4
     src: url('./fonts/vazir.eot')format('eot'),
          url('./fonts/vazir.woff2')format('woff2'),
          url('./fonts/vazir.woff') format('woff'), 
