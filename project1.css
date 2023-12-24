@@ -13,6 +13,10 @@
     margin: 0;
     padding: 0;
   }
+
+  input{
+    font-family:"vazir";
+  }
   header{
     background-image: url('./images/bakcground-header.jpg');
     background-size: cover;
@@ -20,7 +24,7 @@
     width: 100%;
     position: relative;
   }
-  header .header_overlay{
+  .overlay{
     position: absolute;
     background-color: rgb(0,0,0,0.5);
     top: 0;
@@ -30,7 +34,7 @@
   }
   
   .container{
-    width: 1200px;
+    width: 1300px;
     height: 100px;
     margin: auto;
   }
@@ -116,6 +120,7 @@
   #our_story .story_desc h1{
   font-size: 30px;
   }
+
   #our_story .story_desc p{
     font-size: 18px;
     line-height: 35px;
@@ -126,6 +131,224 @@
     width: 50%;
     float: right;
   }
+
   #our_story .story_img img{
     width: 100%;
   }
+
+  /*sweet*/
+
+  #sweet{
+    /* width: 100%; */
+    background-image:url("./images/backtwo.jpg");
+    height: 350px;
+    padding: 100px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+  }
+
+  .sweet_desc{
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
+  }
+
+  .sweet_desc h1{
+    font-size: 40px;
+
+  }
+
+  .sweet_desc p{
+    font-size: 20px;
+    width: 700px;
+    margin: auto;
+  }
+
+ #menu{
+  width: 100%;
+  height: 550px;
+  padding-top: 150px
+ } 
+
+ #menu .menu_desc{
+  width: 45%;
+  float: right;
+  text-align: center;
+  margin-top: 75px;
+  margin-left: 35px;
+  line-height: 30px;
+ }
+
+ #menu .menu_desc h1{
+  font-size: 40px;
+ }
+
+ #menu .menu_desc p{
+  font-size: 18px;
+ }
+
+ #menu .menu_desc a{
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px dashed red;
+  font-size: 19px;
+ }
+
+ #menu .menu_img{
+  width: 45%;
+  float: right;
+ }
+
+ #menu .menu_img img{
+  width: 250px;
+  height: 200px;
+  margin-left: 5px;
+ }
+
+
+/*hot*/
+
+#hot{
+  background-image: url("./images/hot.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 450px;
+  position: relative;
+}
+
+
+#hot .hot_desc{
+  text-align: center;
+  padding-top: 145px;
+  line-height: 30px;
+}
+
+#hot .hot_desc h1{
+  font-size: 45px;
+}
+
+#hot .hot_desc p{
+  font-size: 20px;
+}
+
+/*delight*/
+
+#delight{
+  width: 100%;
+  padding: 80px 0;
+  overflow: auto;
+}
+
+#delight .delight_desc{
+  width: 45%;
+  float: right;
+  text-align: center;
+  padding-top: 140px
+}
+
+#delight .delight_desc h1{
+  font-size: 45px;
+}
+
+#delight .delight_desc p{
+  line-height: 30px;
+  font-size: 17px;
+  margin-bottom: 50px;
+}
+
+#delight .delight_img{
+  width: 45%;
+  float: right;
+  margin-right: 95px;
+}
+
+#delight .delight_img img{
+  height: 350px;
+  width: 200px;
+  margin-left: 15px;
+}
+
+#footer{
+  width: 100%;
+  height: 550px;
+  background-color:black;
+}
+
+#footer .footer{
+  width: 100%;
+  padding-top: 100px;
+}
+
+#footer .footer .about_footer{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#footer .footer .about_footer h1{
+  font-size: 38px;
+}
+
+#footer .footer .about_footer p{
+  width: 500px;
+  font-size: 18px;
+  line-height: 35px;
+  margin: auto;
+
+}
+
+#footer .footer .contact_us{
+  color: #fff;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#footer .footer .contact_us .news_letter{
+  float: right;
+  width: 47%;
+}
+
+#footer .footer .contact_us .news_letter h1{
+  font-size: 25px;
+}
+
+
+#footer .footer .contact_us .social{
+  float: right;
+  width: 47%;
+  
+}
+
+#footer .footer .contact_us .social h1{
+  font-size: 25px;
+}
+
+#footer .footer .contact_us .social li{
+list-style: none;
+display: inline-block;
+}
+
+#footer .footer .contact_us .social a{
+  color: #fff;
+}
+#footer .footer .contact_us .social ul li a i{
+  font-size: 52px;
+  margin: 0 2px;
+}
+.copy-right{
+  width: 100%;
+  height: 200px;
+  background-color: rgb(57, 56, 56);
+  text-align: center;
+  padding-top: 70px;
+  color: #fff;
+}
+
+.copy-right h1{
+  margin: 0 0;
+}
